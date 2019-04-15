@@ -1,0 +1,7 @@
+.container{
+    border: 1px solid red;
+    margin: 20px auto 0px auto;
+}
+.about-title{
+    font-weight:bold;
+}
