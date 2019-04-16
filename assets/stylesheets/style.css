@@ -1,7 +1,11 @@
-.container{
-    border: 1px solid red;
-    margin: 20px auto 0px auto;
+*{
+    box-sizing: border-box;
 }
-.about-title{
-    font-weight:bold;
+
+a .nav-item{
+    float:right;
+}
+
+.row{
+    width:100%;
 }
