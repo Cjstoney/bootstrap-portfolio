@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Portfolio</title>
+  <!-- bootstrap style sheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
+</head>
+
+<!-- page content -->
+
+<body>
+
+  <!-- navbar -->
+  <section>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-bar">
+        <a class="navbar-brand" id="logo" href="index.html">Camerone Stoney</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </section>
+  <!-- main body content -->
+  <section>
+    <!-- Content here -->
+    <div class="container" id="background-container">
+            <div class="container" id="main-container">
+            <form>
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="name" class="form-control" id="inputnamehere" aria-describedby="emailHelp" placeholder="Your name here">
+                    </div>
+                    <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                          </div>
+                          <div class="form-group">
+                                <label for="name">Message</label>
+                                <input type="message" class="form-control" id="message" aria-describedby="emailHelp" placeholder="Type your message here">
+                            </div>
+                    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+    </div>
+  </section>
+
+  <!-- footer section -->
+  <footer class="footer">
+    <div class="fixed-bottom">
+      &copy; Camerone Stoney
+
+    </div>
+  </footer>
+</body>
