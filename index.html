@@ -16,42 +16,42 @@
 
   <!-- navbar -->
   <section>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-bar">
         <a class="navbar-brand" id="logo" href="index.html">Camerone Stoney</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          <ul class="navbar-nav ml-auto nav-items">            <li class="nav-item active">
+              <a id="nav-link" class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a id="nav-link" class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a id="nav-link" class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
           </ul>
         </div>
       </nav>
   </section>
   <!-- main body content -->
-  <section>
+  <section id="main-background">
     <!-- Content here -->
-    <div class="container" id="background-index">
+    <div class="container " id="background-index">
     <div class="container" id="main-container">
+          <h2 class="about-me" id="about-me-title">About</h2>
+
       <div class="row">
         <div>
           <div class="col-4" id="about-title">
             <div class="card" style="width: 18rem;">
+              
                 <img src="assets/images/IMG_1483 2.jpg" class="card-img-top" alt="Photo of Camerone Stoney">
-                <div class="card-body">
-                  <p class="card-text" Id="about">About</p>
-                </div>
               </div>
           </div>
         </div>
-        <div class="col-8" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet, purus in fermentum
+        <div class="col-8 bio-p" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet, purus in fermentum
           feugiat, purus elit dictum massa, eget egestas velit turpis non nisl. Sed vitae fermentum eros. Phasellus
           scelerisque risus a suscipit placerat. Duis interdum blandit risus, sit amet mollis orci maximus vitae. Nulla
           vel rutrum turpis, pretium ultricies nunc. Quisque viverra placerat magna, sed euismod ante gravida aliquet.
@@ -64,10 +64,10 @@
   </section>
 
   <!-- footer section -->
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="fixed-bottom">
       &copy; Camerone Stoney
-
     </div>
   </footer>
+  
 </body>
