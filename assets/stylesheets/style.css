@@ -1,3 +1,7 @@
+*{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 #logo{
     width:300px;
     height:90px;
@@ -14,13 +18,10 @@
 }
 #about-me-title.about-me{
     padding:20px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     color:#4aaaa5;
 }
-#main-background{
-    background-color:#ffffff;
-    padding:10px 60px 60px;
-}
+
 #footer div{
     text-align: center;
     background:#666666;
@@ -28,6 +29,7 @@
     border-top: 10px solid #4aaaa5;
     color:#ffffff;
     padding:20px;
+    margin-top:20px;
 }
 #project{
     margin:auto;
@@ -36,6 +38,7 @@
 #submit.btn.btn-primary.buttton{
     background-color:#4aaaa5;
     height:40px;
+    margin:10px;
 }
 #message.form-control.form-box{
     height:200px;
@@ -45,7 +48,7 @@
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 #project.card.boards{
-    margin:0px 20px;
+    margin:20px;
 }
 #captions.card-text{
     text-align: center;
@@ -58,4 +61,21 @@
 }
 #project.card-img-top.image-opacity{
     opacity:0.8;
+}
+#main-container.container{
+    padding-bottom:100px;
+    background: url(assets/images/ricepaper_@2X.png); 
+    width:100%;
+    height:100%;   
+}
+
+#content-row.row{
+    color:#ffffff;
+}
+#row-width.row{
+    width:95%;
+    margin:auto;
+    background-color:#ffffff;
+    padding: 30px;
+    border:2px solid #777777;
 }
